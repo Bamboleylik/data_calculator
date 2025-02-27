@@ -25,7 +25,7 @@ namespace data_calculator
 
         private void ParseDate()
         {
-            string input = txtDate.Text.Trim(); // Видаляємо зайві пробіли
+            string input = txtDate.Text.Trim(); 
 
             if (string.IsNullOrWhiteSpace(input))
             {
